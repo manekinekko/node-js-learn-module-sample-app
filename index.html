@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure Vacation Rental</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Azure Vacation Rental</h1>
+    </header>
+    <main id="app"></main>
+
+    <script type="module">
+      import { html, render } from "./core.js";
+      import properties from "./data.json" assert { type: "json" };
+
+      // main
+      render(
+        "app",
+        properties.map(
+          (item) =>
+            html`<article class="card">
+              <img src="${item.image}" alt="${item.name}" />
+              <section>
+                <h2 class="name">${item.name}</h2>
+                <p class="description">${item.description}</p>
+                <p class="price">${item.price}</p>
+                <p class="location">${item.location}</p>
+              </section>
+            </article>`
+        )
+      );
+    </script>
+  </body>
+</html>

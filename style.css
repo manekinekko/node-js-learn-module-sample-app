@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #2196F3;
+  color: white;
+  height: 50px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+section {
+  margin-left: 10px;
+}
+
+section .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section .description {
+  font-size: 15px;
+  color: #777;
+  margin-top: 5px;
+}
+
+section .price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #777;
+}
+
+seciton .location {
+  font-size: 15px;
+  color: #777;
+  margin-top: 5px;
+}
