@@ -1,87 +1,77 @@
 [
   {
-    "name": "Rental Homes",
+    "id": 1,
+    "name": "Georgian Court",
     "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.",
     "image": "http://placehold.it/100x100",
-    "price": "$1,000,000",
+    "price": "1000000",
     "location": "San Francisco, CA",
     "bedrooms": "3",
     "bathrooms": "2",
     "link": "http://www.example.com",
     "geometry": {
       "type": "Point",
-      "coordinates": [
-        -122.4194155,
-        37.7749295
-      ]
-    } 
+      "coordinates": [-122.4194155, 37.7749295]
+    }
   },
   {
-    "name": "Rental Homes",
+    "id": 2,
+    "name": "Brittany Court",
     "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.",
     "image": "http://placehold.it/100x100",
-    "price": "$3000,000",
+    "price": "3000000",
     "location": "San Francisco, CA",
     "bedrooms": "3",
     "bathrooms": "2",
     "link": "http://www.example.com",
     "geometry": {
       "type": "Point",
-      "coordinates": [
-        -122.4194155,
-        37.7749295
-      ]
-    } 
+      "coordinates": [-122.4194155, 37.7749295]
+    }
   },
   {
-    "name": "Rental Homes",
+    "id": 3,
+    "name": "Baz Homes",
     "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.",
     "image": "http://placehold.it/100x100",
-    "price": "$9000,000",
+    "price": "9000000",
     "location": "San Francisco, CA",
     "bedrooms": "3",
     "bathrooms": "2",
     "link": "http://www.example.com",
     "geometry": {
       "type": "Point",
-      "coordinates": [
-        -122.4194155,
-        37.7749295
-      ]
-    } 
+      "coordinates": [-122.4194155, 37.7749295]
+    }
   },
   {
-    "name": "Rental Homes",
+    "id": 4,
+    "name": "Bar Homes",
     "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.",
     "image": "http://placehold.it/100x100",
-    "price": "$4,000,000",
+    "price": "4000000",
     "location": "San Francisco, CA",
     "bedrooms": "3",
     "bathrooms": "2",
     "link": "http://www.example.com",
     "geometry": {
       "type": "Point",
-      "coordinates": [
-        -122.4194155,
-        37.7749295
-      ]
-    } 
+      "coordinates": [-122.4194155, 37.7749295]
+    }
   },
   {
-    "name": "Rental Homes",
+    "id": 5,
+    "name": "Foo Homes",
     "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.",
     "image": "http://placehold.it/100x100",
-    "price": "$100,000",
+    "price": "100000",
     "location": "San Francisco, CA",
     "bedrooms": "3",
     "bathrooms": "2",
     "link": "http://www.example.com",
     "geometry": {
       "type": "Point",
-      "coordinates": [
-        -122.4194155,
-        37.7749295
-      ]
+      "coordinates": [-122.4194155, 37.7749295]
     }
   }
 ]
